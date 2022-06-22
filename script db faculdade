@@ -128,7 +128,6 @@ foreign key (fk_RA) references aluno(RA),
 foreign key (fk_cod_disciplina) references disciplina(cod_disciplina)
 );
 
-
 create table if not exists disciplina_historico(
 	fk_cod_historico int(4),
     fk_cod_disciplina int(4),
